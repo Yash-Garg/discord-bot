@@ -1,0 +1,11 @@
+{
+  "name": "S3NS3-bot",
+  "version": "1.0.0",
+  "description": "A bot made by S3NS3",
+  "main": "bot.js",
+  "author": "Yash Garg",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "winston2": "^1.0.3"
+  }
+}
