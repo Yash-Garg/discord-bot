@@ -32,21 +32,21 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     to: channelID,
                     message: 'Pong!'
                 });
-			break;
-			// !owner
-			case 'owner':
-				bot.sendMessage({
-					to: channelID,
-					message: 'Find my owner here -> https://github.com/Yash-Garg'
-				});	
-			break;
-			// !donate
-			case 'donate':
-				bot.sendMessage({
-					to: channelID,
-					message: 'Donate here: https://paypal.me/YGarg917'
-				});	
-			break;
+		break;
+	   // !owner
+           case 'owner':
+		bot.sendMessage({
+		    to: channelID,
+		    message: 'Find my owner here -> https://github.com/Yash-Garg'
+		});	
+		break;
+	  // !donate
+	  case 'donate':
+		bot.sendMessage({
+		    to: channelID,
+		    message: 'Donate here: https://paypal.me/YGarg917'
+		});	
+		break;
          }
      }
 });
